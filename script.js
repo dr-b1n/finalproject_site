@@ -30,13 +30,14 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-storage.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDQCLQtmS2aiJzxD4e7EsOXy7Ew89Hi7fM",
-  authDomain: "finalproject-api-251209.firebaseapp.com",
-  projectId: "finalproject-api-251209",
-  storageBucket: "finalproject-api-251209.firebasestorage.app",
-  messagingSenderId: "609885297100",
-  appId: "1:609885297100:web:0d46714b58b9ba842f2569",
+  apiKey: "AIzaSyD_dpVP3t4PMq_OLVkv4dh6abChhk4S8Ts",
+  authDomain: "finalproject-6231209.firebaseapp.com",
+  projectId: "finalproject-6231209",
+  storageBucket: "finalproject-6231209.firebasestorage.app",
+  messagingSenderId: "183998445962",
+  appId: "1:183998445962:web:ef793e1de7f5ae26e43073"
 };
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
@@ -129,10 +130,10 @@ chatForm.addEventListener("submit", async (e) => {
 
 // ==== 1. 책 & 굿즈 데이터 로드 & 렌더링 ====
 const BOOKS_JSON_URL =
-  "https://raw.githubusercontent.com/Divjason/finalProject_api/refs/heads/main/books_yes24.json";
+  "https://raw.githubusercontent.com/dr-b1n/finalproject_api/refs/heads/main/books_yes24.json";
 
 const GOODS_JSON_URL =
-  "https://raw.githubusercontent.com/Divjason/finalProject_api/refs/heads/main/goods_yes24.json";
+  "https://raw.githubusercontent.com/dr-b1n/finalproject_api/refs/heads/main/goods_yes24.json";
 
 let booksData = [];
 let goodsData = [];
